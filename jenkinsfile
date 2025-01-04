@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/your-repo/python-maven-project.git' // Replace with your repo URL
+                git 'https://github.com/SandeshKutwade/Complete-DevOps.git' // Replace with your repo URL
             }
         }
         stage('Build with Maven') {
